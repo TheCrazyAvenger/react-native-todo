@@ -4,7 +4,7 @@ import { THEME } from '../theme';
 import { AntDesign } from '@expo/vector-icons';
 import { TodoContext } from '../context/todo/todoContext';
 
-export const AddTodo = ({ onSubmit }) => {
+export const AddTodo = () => {
   const [value, setValue] = useState('');
   const { addTodo } = useContext(TodoContext);
 

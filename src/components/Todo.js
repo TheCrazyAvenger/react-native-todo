@@ -4,7 +4,7 @@ import { ScreenContext } from '../context/screen/screenContext';
 import { TodoContext } from '../context/todo/todoContext';
 import { AppText } from './ui/AppText';
 
-export const Todo = ({ todo, onRemove, onOpen }) => {
+export const Todo = ({ todo }) => {
   const { removeTodo } = useContext(TodoContext);
   const { changeScreen } = useContext(ScreenContext);
 
